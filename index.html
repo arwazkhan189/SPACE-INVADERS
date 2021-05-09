@@ -83,6 +83,20 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-weight: bold;
     }
+    /*hiding form  in small screen and showing button*/
+    @media only screen and (max-width: 1026px) {
+      #hide-small-div {
+        display: none;
+      }
+    }
+    #show-small-div {
+      display: none;
+    }
+    @media only screen and (max-width: 1024px) {
+      #show-small-div {
+        display: block;
+      }
+    }
     .footer{
       color: black;
       font-weight: bolder;
@@ -183,7 +197,12 @@
           : </h3>
         <div class="col-12 text-center">
           <p style="color:white; font-weight:bold; "> Please submit your review after playing game.</p>
-          <a href="https://forms.gle/UhgmBvK7ibGMrnoU8" target="_blank" class="btn btn-primary">Form link</a>
+          <div id="hide-small-div">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZ6UPlta-l1OCkZuuZ4lKM42I6sNjDKsYfytvCDmgZ1DH2ZQ/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+          <div id='show-small-div'>
+            <a href="https://forms.gle/UhgmBvK7ibGMrnoU8" target="_blank" class="btn btn-primary">Form link</a>
+          </div>
         </div>
       </div>
     </div>
