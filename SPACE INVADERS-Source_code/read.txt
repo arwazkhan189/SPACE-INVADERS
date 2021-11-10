@@ -37,7 +37,7 @@ SOFTWARE.
 ► Github repository link -https://github.com/arwazkhan189/SPACE-INVADERS
 ------------------Follow Me On Social Media-----------------------------------
 
-► Website  - https://arwazkhan.me/
+► Website  - https://arwazkhan189.github.io/
 ► Facebook - https://www.facebook.com/arwazkhan189
 ► Instagram - https://instagram.com/iamarwaz
 ► Twitter - https://twitter.com/arwazkhan189
